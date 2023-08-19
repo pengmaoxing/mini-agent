@@ -1,0 +1,90 @@
+@import '../icon/stylesheet.wxss';
+.layout{
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  background: rgb(246,246,246);
+}
+.statistics{
+  position: relative;
+  height: 420rpx;
+  background: linear-gradient(rgb(64,138,235),rgb(56,143,237));
+  border-radius: 10rpx;
+  color: #fff;
+  padding: 40rpx;
+  box-sizing: border-box;
+}
+.total{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 26rpx;
+  color: rgba(233, 255, 255, 1);
+}
+.total .erweima{
+  font-size: 50rpx;
+}
+.collection{
+  margin-top: 50rpx;
+}
+.symbol{
+  font-size: 28rpx;
+  font-weight: 400;
+  margin-right: 10rpx;
+}
+.money{
+  font-size: 50rpx;
+  font-weight: 400;
+}
+.collection_records{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100rpx;
+  /* line-height: 100rpx; */
+  padding:0 40rpx;
+  font-size: 28rpx;
+  box-sizing: border-box;
+  background:rgb(49,134,230);
+  border-bottom-left-radius: 10rpx;
+  border-bottom-right-radius: 10rpx;
+}
+.desc{
+  margin-top: 20rpx;
+  font-size: 24rpx;
+  color: rgb(139,204,255);
+}
+/* .collection{
+  margin-top: 50rpx;
+} */
+.tools{
+  margin-top: 20rpx;
+  width: 100%;
+  /* height: 300rpx; */
+  background: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 60rpx 40rpx;
+  box-sizing: border-box;
+  grid-gap: 100rpx;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10rpx;
+}
+.tools>view {
+  text-align: center;
+}
+.icon{
+  font-size: 70rpx;
+  color: rgb(180, 180, 180);
+  margin-bottom: 20rpx;
+}
+.tools-name{
+  color: #000;
+  font-size: 30rpx;
+}

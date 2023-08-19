@@ -1,0 +1,45 @@
+.logo-img{
+  width: 40vw;
+  display: block;
+  /* margin: 0 auto; */
+}
+.login{
+  width: 100vw;
+  height: 100vh;
+  /* background: yellow; */
+  /* padding-top: 200rpx; */
+}
+.login_input{
+  /* margin-top: 100rpx; */
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  margin-left: 5vw;
+  gap: 20rpx;
+  margin-bottom: 40rpx;
+  margin-top: 40rpx;
+  font-size: 30rpx;
+}
+.login_input label {
+  width: 100rpx;
+}
+.login_input input{
+  flex: 1;
+  padding: 20rpx;
+  border-radius: 10rpx;
+  /* box-sizing: border-box; */
+}
+.accout{
+  height: 44rpx;
+  border: 1rpx solid #eee;
+}
+.login_input button {
+  width: 100%;
+}
+.forgot{
+  text-align: center;
+}
+.forgot text{
+  color: #666;
+  font-size: 28rpx;
+}

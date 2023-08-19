@@ -1,0 +1,24 @@
+<view class="layout">
+  <view class="statistics">
+    {{token}}
+    <view class="total">
+      <text>今日收款{{total}}笔</text>
+      <text class="iconfont icon-erweima erweima"></text>
+    </view>
+      <view class="collection">
+        <text class="symbol iconfont icon-renminbi"/>
+        <text class="money">{{money}}</text>
+      </view>
+      <view class="desc">今日收款（元）</view>
+      <view class="collection_records">
+        <view><text class="symbol iconfont icon-shoukuanjilu" />收款记录</view>
+        <text class="symbol iconfont icon-xiangyoujiantou"></text>
+      </view>
+  </view>
+  <view class="tools">
+    <view wx:for="{{tools}}" wx:key="index">
+     <view class="{{['iconfont','icon',item.icon]}}"></view>
+     <text class="tools-name">{{item.name}}</text>
+    </view>
+  </view>
+</view>

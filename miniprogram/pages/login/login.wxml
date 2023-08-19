@@ -1,0 +1,18 @@
+<!--logs.wxml-->
+<form class="login" catchsubmit="formSubmit">
+<cover-image src='../../asset/logo.jpg' class="logo-img"></cover-image>
+   <view class="login_input">
+     <label for="username">账号：</label>
+     <input type="text" id="username" model:value="{{form.username}}" class="accout" name="username" placeholder="请输入账号"/>
+   </view>
+   <view class="login_input">
+     <label for="password">密码：</label>
+     <input type="password" id="password" model:value="{{form.password}}" class="accout" name="password" placeholder="请输入密码"/>
+   </view>
+   <view class="login_input">
+        <button type="primary" formType="submit">登 录</button>
+    </view>
+    <view class="forgot">
+        <text>忘记密码</text>
+    </view>
+</form>
